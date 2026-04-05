@@ -1,43 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Falatka Büfé.</title>
-    <!--<link rel="icon" type="image/x-icon" href="">--> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand bx-8" href="#">Falatka Büfé.</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand px-5" href="#">Falatka Büfé.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        <div class="justify-content-center">
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Főoldal</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Étlap</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Galéria</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Rólunk</a>
-        </ul>
-                </div>
-    </div>
+            <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Főoldal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Étlap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galéria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Rólunk</a>
+                    </li>
+                </ul>
+                <ul>
+                    <p id="time"></p>
+                </ul>
+            </div>
+        </div>
     </nav>
     <main>
+        <div class="container">
+            <section>
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/bufe1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <!-- <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt="...">
+                        </div> -->
 
+                        <!--Ide majd egy 16*9 es kép kell vagy valami szélles-->
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Előző</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Következő</span>
+                    </button>
+                </div>
+            </section>
+            <section>
+                Miért válasznatnál minket?
+                <!--ide kéne dolog hogy miért -->
+            </section>
+            <section class="elvalaszto">
+                <div class="row">
+                    <div class="col-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus totam
+                        impedit itaque autem fugiat adipisci eveniet cum delectus dolores perspiciatis nostrum esse ea
+                        atque nesciunt porro tempora, officiis rerum praesentium.</div>
+                    <div class="col-6"><img src="" alt=""></div>
+                </div>
+                <span class="elvalaszto"></span>
+                <div class="row">
+                    <div class="col-6"><img src="" alt=""></div>
+                    <div class="col-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit molestiae
+                        cupiditate tenetur odio a, quibusdam corrupti dolore soluta eaque delectus fuga animi
+                        temporibus, maiores nisi autem illum reprehenderit, magni fugit.</div>
+                </div>
+            </section>
+            <section>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="myToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true"
+                        data-bs-autohide="false">
+                        <div class="toast-body text-bg-info">
+                            Nem ennél valmit? itt a menünk!😋
+                            <div class="mt-2 pt-2 border-top">
+                                <button type="button" class="btn btn-primary btn-sm">Menü</button>
+                                <button type="button" class="btn btn-secondary btn-sm"
+                                    data-bs-dismiss="toast">Bezár</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
-
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
 </html>
