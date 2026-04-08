@@ -8,7 +8,17 @@
     display: inline-block;
 }
 
+.elvalasztonagy{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
 .elvalaszto{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.elvalasztokicsi{
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
@@ -17,4 +27,17 @@
     border-radius: 10px;
     border: 5px solid black;
     padding: 1rem ;
+}
+
+
+.kereknagy{
+    border-radius: 50px;
+}
+
+.kerek{
+    border-radius: 30px;
+}
+
+.kerekkicsi{
+    border-radius: 15px;
 }
