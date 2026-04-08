@@ -1,4 +1,3 @@
-
 /*index*/
 
 #cim {
@@ -8,17 +7,17 @@
     display: inline-block;
 }
 
-.elvalasztonagy{
+.elvalasztonagy {
     margin-top: 10rem;
     margin-bottom: 10rem;
 }
 
-.elvalaszto{
+.elvalaszto {
     margin-top: 6rem;
     margin-bottom: 6rem;
 }
 
-.elvalasztokicsi{
+.elvalasztokicsi {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
@@ -26,18 +25,73 @@
 .doboz {
     border-radius: 10px;
     border: 5px solid black;
-    padding: 1rem ;
+    padding: 1rem;
 }
 
 
-.kereknagy{
+.kereknagy {
     border-radius: 50px;
 }
 
-.kerek{
+.kerek {
     border-radius: 30px;
 }
 
-.kerekkicsi{
+.kerekkicsi {
     border-radius: 15px;
+}
+
+.ido:hover {
+    color: red;
+    font-size: 25px;
+    transition: 2s;
+}
+
+.betoltes{
+    animation: beuszas 500ms ease-out
+}
+
+.betoltesb{
+    animation: beuszasb 1s ease-out
+}
+
+.betoltesj{
+    animation: beuszasj 1s ease-out
+}
+
+
+@keyframes beuszas {
+    from {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(-0);
+    }
+}
+
+@keyframes beuszasb {
+    from {
+        opacity: 0;
+        transform: translateX(-500px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(-0);
+    }
+}
+
+@keyframes beuszasj {
+    from {
+        opacity: 0;
+        transform: translateX(500px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
