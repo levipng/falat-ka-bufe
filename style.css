@@ -1,5 +1,9 @@
 /*index*/
 
+body{
+    background: #f2f9fb;
+}
+
 #cim {
     border-radius: 40px;
     border: 5px rgb(0, 0, 0) solid;
@@ -20,6 +24,11 @@
 .elvalasztokicsi {
     margin-top: 3rem;
     margin-bottom: 3rem;
+}
+
+.elvalasztom {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .doboz {
@@ -47,18 +56,31 @@
     transition: 2s;
 }
 
-.betoltes{
+.betoltes {
     animation: beuszas 500ms ease-out
 }
 
-.betoltesb{
+.betoltesb {
     animation: beuszasb 1s ease-out
 }
 
-.betoltesj{
+.betoltesj {
     animation: beuszasj 1s ease-out
 }
 
+.hatter1 {
+    background: linear-gradient(to right, #ff9661, #ff5500, #ff9e43);
+}
+
+.hatter2 {
+    background-color: aliceblue;
+}
+
+button{
+    border-radius: 20px;
+    background: transparent;
+
+}
 
 @keyframes beuszas {
     from {
