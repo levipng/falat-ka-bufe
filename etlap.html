@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Étlap – Falatka Büfé.</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="images/Logo.png">
+  <style>
+    .etlap-kategoria-gomb {
+      border: 2px solid #5C38ED;
+      color: #5C38ED;
+      background: transparent;
+      border-radius: 20px;
+      padding: 6px 22px;
+      margin: 4px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    .etlap-kategoria-gomb:hover,
+    .etlap-kategoria-gomb.aktiv {
+      background-color: #5C38ED;
+      color: #fff;
+    }
+    .ar-badge {
+      background-color: #5C38ED;
+      color: #fff;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand betoltes"><img width="130rem" src="images/Logo.png" alt=""></a>
+      <a class="navbar-brand px-5 betoltes" href="index.html">Falatka Büfé.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+        <ul class="navbar-nav betoltes">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Főoldal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Étlap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Galéria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Rólunk</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://time.is/" target="_blank" class="nav-link ido">
+              <span id="time"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    
+</body>
+</html>
