@@ -35,7 +35,7 @@
   </style>
 </head>
 <body>
-    
+
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand betoltes"><img width="130rem" src="images/Logo.png" alt=""></a>
@@ -68,6 +68,330 @@
     </div>
   </nav>
 
-    
+  <main>
+    <div class="container">
+
+      <!-- FEJLÉC -->
+      <section class="elvalasztonagy">
+        <div class="d-flex justify-content-center align-items-center elvalaszto betoltesj">
+          <h1>Étlapunk</h1>
+        </div>
+        <div class="d-flex justify-content-center align-items-center mb-4">
+          <p class="text-center text-muted">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Friss alapanyagokból, szeretettel készítve.
+          </p>
+        </div>
+
+        <!-- KATEGÓRIA GOMBOK -->
+        <div class="d-flex justify-content-center flex-wrap betoltes mb-4">
+          <button class="etlap-kategoria-gomb aktiv" onclick="szures(this, 'osszes')">Összes</button>
+          <button class="etlap-kategoria-gomb" onclick="szures(this, 'reggeli')">Reggeli</button>
+          <button class="etlap-kategoria-gomb" onclick="szures(this, 'foeteles')">Főételek</button>
+          <button class="etlap-kategoria-gomb" onclick="szures(this, 'kisetel')">Kisételek</button>
+          <button class="etlap-kategoria-gomb" onclick="szures(this, 'desszert')">Desszertek</button>
+          <button class="etlap-kategoria-gomb" onclick="szures(this, 'ital')">Italok</button>
+        </div>
+      </section>
+
+      <!-- REGGELI -->
+      <section class="elvalasztonagy" id="szekcio-reggeli">
+        <div class="d-flex align-items-center elvalasztokicsi betoltesj">
+          <h2>Reggeli</h2>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-sm-12 etlap-kartya" data-kategoria="reggeli">
+            <div class="card kerekkicsi betoltesb" style="width: 18rem;">
+              <img src="images/placeholder1_1.png" loading="lazy" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Placeholder reggeli 1</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="ar-badge">999 Ft</span>
+                  <small class="text-muted">~15 perc</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-sm-12 etlap-kartya" data-kategoria="reggeli">
+            <div class="card kerekkicsi betoltes" style="width: 18rem;">
+              <img src="images/placeholder1_1.png" loading="lazy" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Placeholder reggeli 2</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="ar-badge">1 299 Ft</span>
+                  <small class="text-muted">~10 perc</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-sm-12 etlap-kartya" data-kategoria="reggeli">
+            <div class="card kerekkicsi betoltesj" style="width: 18rem;">
+              <img src="images/placeholder1_1.png" loading="lazy" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Placeholder reggeli 3</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="ar-badge">1 499 Ft</span>
+                  <small class="text-muted">~20 perc</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FŐÉTELEK -->
+      <section class="elvalasztonagy" id="szekcio-foeteles">
+        <div class="d-flex align-items-center elvalasztokicsi betoltesj">
+          <h2>Főételek</h2>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-sm-12 etlap-kartya" data-kategoria="foeteles">
+            <div class="card kerekkicsi betoltesb" style="width: 18rem;">
+              <img src="images/placeholder1_1.png" loading="lazy" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Placeholder főétel 1</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="ar-badge">2 490 Ft</span>
+                  <small class="text-muted">~30 perc</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-sm-12 etlap-kartya" data-kategoria="foeteles">
+            <div class="card kerekkicsi betoltes" style="width: 18rem;">
+              <img src="images/placeholder1_1.png" loading="lazy" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Placeholder főétel 2</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="ar-badge">2 990 Ft</span>
+                  <small class="text-muted">~25 perc</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-sm-12 etlap-kartya" data-kategoria="foeteles">
+            <div class="card kerekkicsi betoltesj" style="width: 18rem;">
+              <img src="images/placeholder1_1.png" loading="lazy" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Placeholder főétel 3</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="ar-badge">3 290 Ft</span>
+                  <small class="text-muted">~35 perc</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- KISÉTELEK -->
+      <section class="elvalasztonagy" id="szekcio-kisetel">
+        <div class="d-flex align-items-center elvalasztokicsi betoltesj">
+          <h2>Kisételek</h2>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-sm-12 etlap-kartya" data-kategoria="kisetel">
+            <div class="card kerekkicsi betoltesb" style="width: 18rem;">
+              <img src="images/placeholder1_1.png" loading="lazy" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Placeholder kistel 1</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="ar-badge">890 Ft</span>
+                  <small class="text-muted">~10 perc</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-sm-12 etlap-kartya" data-kategoria="kisetel">
+            <div class="card kerekkicsi betoltes" style="width: 18rem;">
+              <img src="images/placeholder1_1.png" loading="lazy" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Placeholder kistel 2</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="ar-badge">1 190 Ft</span>
+                  <small class="text-muted">~10 perc</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-sm-12 etlap-kartya" data-kategoria="kisetel">
+            <div class="card kerekkicsi betoltesj" style="width: 18rem;">
+              <img src="images/placeholder1_1.png" loading="lazy" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Placeholder kistel 3</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="ar-badge">1 490 Ft</span>
+                  <small class="text-muted">~15 perc</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DESSZERTEK -->
+      <section class="elvalasztonagy" id="szekcio-desszert">
+        <div class="d-flex align-items-center elvalasztokicsi betoltesj">
+          <h2>Desszertek</h2>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-sm-12 etlap-kartya" data-kategoria="desszert">
+            <div class="card kerekkicsi betoltesb" style="width: 18rem;">
+              <img src="images/placeholder1_1.png" loading="lazy" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Placeholder desszert 1</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="ar-badge">790 Ft</span>
+                  <small class="text-muted">~5 perc</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-sm-12 etlap-kartya" data-kategoria="desszert">
+            <div class="card kerekkicsi betoltes" style="width: 18rem;">
+              <img src="images/placeholder1_1.png" loading="lazy" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Placeholder desszert 2</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="ar-badge">990 Ft</span>
+                  <small class="text-muted">~5 perc</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-sm-12 etlap-kartya" data-kategoria="desszert">
+            <div class="card kerekkicsi betoltesj" style="width: 18rem;">
+              <img src="images/placeholder1_1.png" loading="lazy" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Placeholder desszert 3</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="ar-badge">1 190 Ft</span>
+                  <small class="text-muted">~10 perc</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ITALOK -->
+      <section class="elvalasztonagy" id="szekcio-ital">
+        <div class="d-flex align-items-center elvalasztokicsi betoltesj">
+          <h2>Italok</h2>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-sm-12 etlap-kartya" data-kategoria="ital">
+            <div class="card kerekkicsi betoltesb" style="width: 18rem;">
+              <img src="images/placeholder1_1.png" loading="lazy" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Placeholder ital 1</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="ar-badge">490 Ft</span>
+                  <small class="text-muted">0.5 L</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-sm-12 etlap-kartya" data-kategoria="ital">
+            <div class="card kerekkicsi betoltes" style="width: 18rem;">
+              <img src="images/placeholder1_1.png" loading="lazy" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Placeholder ital 2</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="ar-badge">690 Ft</span>
+                  <small class="text-muted">0.33 L</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-sm-12 etlap-kartya" data-kategoria="ital">
+            <div class="card kerekkicsi betoltesj" style="width: 18rem;">
+              <img src="images/placeholder1_1.png" loading="lazy" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Placeholder ital 3</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="ar-badge">890 Ft</span>
+                  <small class="text-muted">1 L</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- CTA – azonos az index hatter1 blokkjával -->
+    <section>
+      <div class="row w-100 text-center hatter1 elvalasztom">
+        <div class="col-12">
+          <h1>Nagyobb csoporttal érkeztek?</h1>
+        </div>
+        <div class="col-12">
+          <h2>Szóljatok nekünk és előkészítjük a konyhát neketek.</h2>
+        </div>
+        <div class="col-12 my-4">
+          <a href="index.html">
+            <button>Kapcsolatok</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <footer class="py-5">
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2025-2026 Falatka Büfé.</p>
+          <p>Készitette: Lorem ipsum dolor sit amet.</p>
+          <ul class="list-unstyled d-flex">
+            <form>
+              <h5>Iratkozz fel a hirlevélre!</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email cim</label>
+                <input id="newsletter1" type="email" class="form-control" placeholder="valaki@valahol" />
+                <button class="btn btn-primary" type="button">Feliratkozás</button>
+              </div>
+            </form>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <script>
+    function szures(gomb, kategoria) {
+      document.querySelectorAll('.etlap-kategoria-gomb').forEach(g => g.classList.remove('aktiv'));
+      gomb.classList.add('aktiv');
+
+      const szekciok = ['reggeli', 'foeteles', 'kisetel', 'desszert', 'ital'];
+      szekciok.forEach(s => {
+        const szekcio = document.getElementById('szekcio-' + s);
+        if (szekcio) {
+          szekcio.style.display = (kategoria === 'osszes' || kategoria === s) ? '' : 'none';
+        }
+      });
+    }
+  </script>
+
 </body>
 </html>
