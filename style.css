@@ -14,6 +14,7 @@ body{
 .elvalasztonagy {
     margin-top: 10rem;
     margin-bottom: 10rem;
+    
 }
 
 .elvalaszto {
@@ -63,6 +64,21 @@ body{
 .betoltesb {
     animation: beuszasb 1s ease-out
 }
+
+
+.penész{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+ 
+
+
+
+
 
 .betoltesj {
     animation: beuszasj 1s ease-out
@@ -117,3 +133,6 @@ button{
         transform: translateX(0);
     }
 }
+
+
+/*rolunk*/
